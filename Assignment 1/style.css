@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: lightblue;
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    padding: 15px;
+    background: steelblue;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.form-box {
+    background: white;
+    padding: 15px;
+    width: 260px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px gray;
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 6px;
+    border: 1px solid gray;
+}
+
+.form-box button {
+    width: 100%;
+    padding: 8px;
+    background: purple;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.event-box {
+    background: white;
+    padding: 15px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px gray;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    flex: 1;
+    padding: 6px;
+    background: purple;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.event-card {
+    background: lightgray;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.delete-btn {
+    margin-top: 5px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.empty-state {
+    text-align: center;
+    color: gray;
+    padding: 20px;
+}
+
+.dom-box {
+    background: white;
+    margin: 20px auto;
+    width: 700px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px gray;
+}
+
+.dom-box button {
+    margin: 5px;
+    padding: 6px 10px;
+    background: steelblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
