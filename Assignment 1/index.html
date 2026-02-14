@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Event Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 class="heading">🎯 Smart Event Dashboard</h1>
+
+<div class="main">
+
+    <div class="form-box">
+        <h3>Add New Event</h3>
+        <form id="eventForm">
+            <label>Event Title:</label>
+            <input type="text" id="eventTitle" required>
+
+            <label>Date:</label>
+            <input type="date" id="eventDate" required>
+
+            <label>Category:</label>
+            <select id="eventCategory">
+                <option value="Conference">Conference</option>
+                <option value="Workshop">Workshop</option>
+                <option value="Meeting">Meeting</option>
+            </select>
+
+            <label>Description:</label>
+            <textarea id="eventDescription"></textarea>
+
+            <button type="submit">Add Event</button>
+        </form>
+    </div>
+
+    <div class="event-box">
+        <h3>My Events</h3>
+
+        <div class="buttons">
+            <button class="btn" id="clearAllBtn">Clear All Events</button>
+            <button class="btn" id="addSampleBtn">Add Sample Events</button>
+        </div>
+
+        <div id="eventContainer">
+            <div class="empty-state">No events yet. Add your first event!</div>
+        </div>
+    </div>
+
+</div>
+
+<div class="dom-box">
+    <h3>DOM Manipulation Demo</h3>
+    <h4>innerHTML vs innerText vs textContent</h4>
+
+    <p id="original">
+        Original HTML: <strong>Bold Text</strong> with spaces
+    </p>
+
+    <button id="showHtml">Show innerHTML</button>
+    <button id="showText">Show innerText</button>
+    <button id="showContent">Show textContent</button>
+
+    <p id="result"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
